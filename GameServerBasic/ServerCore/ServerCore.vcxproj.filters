@@ -13,5 +13,6 @@
   <ItemGroup>
     <ClInclude Include="ServerLib.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Random.h" />
   </ItemGroup>
 </Project>
