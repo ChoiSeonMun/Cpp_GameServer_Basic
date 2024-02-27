@@ -14,6 +14,7 @@
 
 #include <Windows.h>
 #include <iostream>
+#include <sstream>
 #include <io.h>
 #include <cstdlib>
 #include <cstdio>
@@ -35,6 +36,9 @@
 #include <random>
 #include <typeinfo>
 
+#include <vector>
+#include <array>
+
 #if _DEBUG
 #define CONTEXT_SWITCH() Sleep(1)
 #else
@@ -46,5 +50,7 @@ using Action = std::function<void(void*)>;
 // TODO : 기타 유틸
 #include "Util/Type.h"
 #include "Util/Util.h"
+#include "Util/Singleton.h"
+#include "Util/Clock.h"
 
 // TODO : 필수 헤더 파일

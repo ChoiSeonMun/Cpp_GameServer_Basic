@@ -16,6 +16,6 @@ public:
 		return instance;
 	}
 protected:
-	Singleton() { }
-	virtual ~Singleton() { }
+	Singleton() = default;
+	~Singleton() = default;
 };
