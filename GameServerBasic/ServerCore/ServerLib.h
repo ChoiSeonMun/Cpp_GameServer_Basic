@@ -52,5 +52,7 @@ using Action = std::function<void(void*)>;
 #include "Util/Util.h"
 #include "Util/Singleton.h"
 #include "Util/Clock.h"
+#include "Util/Config.h"
 
 // TODO : 필수 헤더 파일
+#include <tinyxml2.h>
