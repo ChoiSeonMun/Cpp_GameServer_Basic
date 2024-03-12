@@ -19,6 +19,7 @@
 #include <cstdlib>
 #include <cstdio>
 #include <cstdint>
+#include <format>
 
 #include <cassert>
 #include <fcntl.h>
@@ -53,6 +54,8 @@ using Action = std::function<void(void*)>;
 #include "Util/Singleton.h"
 #include "Util/Clock.h"
 #include "Util/Config.h"
+#include "Util/Lock.h"
+#include "Util/Thread.h"
 
 // TODO : 필수 헤더 파일
 #include <tinyxml2.h>

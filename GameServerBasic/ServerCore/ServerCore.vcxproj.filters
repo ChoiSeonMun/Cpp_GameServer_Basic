@@ -41,5 +41,8 @@
     <ClInclude Include="Util\Config.h">
       <Filter>Util</Filter>
     </ClInclude>
+    <ClInclude Include="Util\Lock.h">
+      <Filter>Util</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
